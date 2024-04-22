@@ -1,0 +1,60 @@
+.custom-container {
+    background-color: #f3f4f6;
+    padding: 50px 0;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666666;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p strong {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #80cbc4;
+    border-color: #80cbc4;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4db6ac;
+    border-color: #4db6ac;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .card {
+      padding: 20px;
+    }
+  
+    .card-title {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+  
+    .contact-info p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+  
+    .btn-primary {
+      width: 100%;
+    }
+  }
+  
